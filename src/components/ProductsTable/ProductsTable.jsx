@@ -60,7 +60,8 @@ const ProductsTable = ({ products, handleSort, sortField, sortDirection }) => {
                 <td data-cy="ProductCategory">
                   {product.categoryObj && (
                     <>
-                      <span>{product.categoryObj.icon}</span>{' '}
+                      <span>{product.categoryObj.icon}</span>
+                      {' - '}
                       <span>{product.categoryObj.title}</span>
                     </>
                   )}
